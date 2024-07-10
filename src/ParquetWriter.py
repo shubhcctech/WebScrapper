@@ -15,6 +15,6 @@ table = pa.Table.from_pandas(value)
 pq.write_table(table,'example.parquet')
 
 # Read the parquet file
-table2 = pq.read_table('files/mobiles1.parquet')
+table2 = pq.read_table('files/mobiles.parquet')
 df = table2.to_pandas()
 print(df)
